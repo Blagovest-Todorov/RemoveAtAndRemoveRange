@@ -7,7 +7,7 @@ namespace ListManupulation
 {
     class Program
     {
-        static void Main() 
+        static void Main()
         {
             List<string> myAL = new List<string>();
             myAL.Add("The");
@@ -21,7 +21,7 @@ namespace ListManupulation
             myAL.Add("dog");
 
             //display the ArrayList
-            
+
             Console.WriteLine("This is the Original List");
             Console.WriteLine(string.Join(' ', myAL));
 
@@ -35,13 +35,13 @@ namespace ListManupulation
             //    myAL.RemoveAt(startIdx);
             //}
 
-            myAL.RemoveRange(0, 2);
+            myAL.RemoveRange(startIdx, numberRemoveElem);
             Console.WriteLine("After removing the values at the first two indexes, result is:");
             Console.WriteLine(string.Join(' ', myAL));
         }  //RemoveAt -removes an element at given index nur/
            // Remove Range 
-           
 
-        
+
+
     }
 }
