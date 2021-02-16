@@ -30,12 +30,12 @@ namespace ListManupulation
             int numberRemoveElem = 2;
             int startIdx = 0;            // 1 2 3  /  2 3 / 3
 
-            for (int i = 1; i <= numberRemoveElem; i++)
-            {
-                myAL.RemoveAt(startIdx);
-            }
+            //for (int i = 1; i <= numberRemoveElem; i++)
+            //{
+            //    myAL.RemoveAt(startIdx);
+            //}
 
-            // myAL.RemoveRange(0, 2);
+            myAL.RemoveRange(0, 2);
             Console.WriteLine("After removing the values at the first two indexes, result is:");
             Console.WriteLine(string.Join(' ', myAL));
         }  //RemoveAt -removes an element at given index nur/
